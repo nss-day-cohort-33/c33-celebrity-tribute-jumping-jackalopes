@@ -1,0 +1,10 @@
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-links li {
+    padding: 10px;
+}

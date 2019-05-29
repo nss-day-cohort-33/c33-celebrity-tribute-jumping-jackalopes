@@ -47,3 +47,23 @@ li img {
     height: 50px;
     align-self: center;
 }
+
+/* THOMAS 'NEWS' CSS */
+div.news {
+    display: flex;
+    flex-direction: column;
+    margin: .25em;
+    justify-content: space-between;
+}
+.news > div {
+    margin: 10px;
+}
+.news > div img {
+    margin-right: 10px;
+}
+.news > div a {
+    padding-top: 10px;
+}
+div.newsContent {
+    margin-top: 40px;
+}

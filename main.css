@@ -5,6 +5,7 @@ img {
     float: left;
     padding: 0, 5px;
 }
+
 nav {
     display: flex;
     justify-content: flex-start;
@@ -14,19 +15,20 @@ nav {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
-    
 }
-link {
+
+nav a {
     display: flex;
     margin: 20px;
     align-self: center;
     padding: 5px;
-    
-    
 }
 
-
-
+footer {
+    position: fixed;
+    bottom: 0; 
+    margin-left: 500px; 
+}
 
 .footer-links {
     display: flex;
@@ -37,4 +39,11 @@ link {
 
 .footer-links li {
     padding: 10px;
+    justify-content: center; 
+}
+
+li img {
+    width: 50px;
+    height: 50px;
+    align-self: center;
 }

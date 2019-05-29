@@ -1,28 +1,19 @@
-/* img {
-    width: 150px; */
-    /* height: 150px;
-    height: 150px;
-    float: left;
-    padding: 0, 5px;
-} */
-
-/* Start of Navbar CSS */
 nav {
-    display: flex;
-    justify-content: flex-start;
-    border: 2px solid black;
-    align-items: center;
-    background-color: rgb(168, 129, 204);
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid black;
+  align-items: center;
+  background-color: rgb(168, 129, 204);
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
 }
 
 nav a {
-    display: flex;
-    margin: 20px;
-    align-self: center;
-    padding: 5px;
+  display: flex;
+  margin: 20px;
+  align-self: center;
+  padding: 5px;
 }
 /* End of Navbar CSS */
 
@@ -47,32 +38,146 @@ nav a {
 }
 /* End of Amber's Career Page CSS */
 
+/* Krystal CSS start */
+.exec_sum_intro img {
+    margin-bottom: 40px;
+    margin-right: 12px;
+    float: left;
+}
+
+.exec_sum_intro h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.list_aliases { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    border: 5px solid black;
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin-right: 8px;
+}
+
+.list_aliases li {
+    list-style: none;
+    text-align: center;
+}
+
+.list_aliases img {
+    height: 140px;
+    width: 170px;
+}
+
+.list_collaborators img {
+    height: 140px;
+    width: 140px;
+}
+
+.list_collaborators {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list_collaborators li {
+    list-style: none;
+    text-align: center;
+}
+
+/* Krystal CSS END */
+
+/* THOMAS 'NEWS' CSS */
+div.news {
+    display: flex;
+    flex-direction: column;
+    margin: .25em;
+    justify-content: space-between;
+}
+.news > div {
+    margin: 10px;
+}
+.news > div img {
+    margin-right: 10px;
+}
+.news > div a {
+    padding-top: 10px;
+}
+div.newsContent {
+    margin-top: 40px;
+}
+
+
+/* Begin Jeff's personal page sytling */
+body {
+  background-color: purple;
+  color: white;
+}
+
+.personal-info {
+    display: inline;
+    text-align: center;
+}
+.family-life {
+  display: flex;
+  justify-content: space-between;
+} 
+
+ .family {
+  display: flex;
+  flex-direction: column;
+}
+.wife {
+  display: flex;
+  flex-direction: column;
+}
+
+.children {
+  display: flex;
+  flex-direction: column;
+}
+
+.family-life img {
+    width: 250px;
+    height: 250px;
+}
+
+/* End Jeff's personal page styling */
+
 
 /* Start of Footer CSS */
 .footer-container {
-    position: relative;
-    margin-top: 150px;
+  position: relative;
+  margin-top: 150px;
 }
 
 footer {
-    position: absolute;
-    bottom: 0; 
-    margin-left: 500px; 
+  position: absolute;
+  bottom: 0; 
+  margin-left: 500px; 
 }
 
 .footer-links {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: center;
+display: flex;
+flex-direction: row;
+list-style: none;
+justify-content: center;
 }
 
 .footer-links li {
-    padding: 10px;
+  padding: 10px; 
 }
 
 li img {
+<<<<<<< HEAD
     width: 50px;
     height: 50px;
 }
 /* End of Footer CSS */
+=======
+  width: 50px;
+  height: 50px;
+}
+>>>>>>> master

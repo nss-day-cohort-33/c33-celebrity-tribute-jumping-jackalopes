@@ -1,3 +1,33 @@
+img {
+    /* width: 150px; */
+    /* height: 150px; */
+    height: 150px;
+    float: left;
+    padding: 0, 5px;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    align-items: center;
+    background-color: rgb(168, 129, 204);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    
+}
+link {
+    display: flex;
+    margin: 20px;
+    align-self: center;
+    padding: 5px;
+    
+    
+}
+
+
+
+
 .footer-links {
     display: flex;
     flex-direction: row;

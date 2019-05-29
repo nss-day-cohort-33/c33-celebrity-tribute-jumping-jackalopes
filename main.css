@@ -1,45 +1,67 @@
-img {
-    /* width: 150px; */
-    /* height: 150px; */
+/* img {
+    width: 150px; */
+    /* height: 150px;
     height: 150px;
     float: left;
     padding: 0, 5px;
-}
+} */
+
 
 nav {
-    display: flex;
-    justify-content: flex-start;
-    border: 2px solid black;
-    align-items: center;
-    background-color: rgb(168, 129, 204);
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid black;
+  align-items: center;
+  background-color: rgb(168, 129, 204);
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
 }
 
 nav a {
+  display: flex;
+  margin: 20px;
+  align-self: center;
+  padding: 5px;
+}
+
+.sam-bw-pic {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-right: 20px;
+}
+
+.movie-cards {
     display: flex;
-    margin: 20px;
-    align-self: center;
-    padding: 5px;
+    
+}
+.movie-poster img {
+    width: 100%;
+}
+
+
+.footer-container {
+    position: relative;
+    margin-top: 150px;
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0; 
     margin-left: 500px; 
 }
 
 .footer-links {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
 }
 
 .footer-links li {
     padding: 10px;
-    justify-content: center; 
 }
 
 li img {
@@ -67,3 +89,40 @@ div.news {
 div.newsContent {
     margin-top: 40px;
 }
+
+
+/* Begin Jeff's personal page sytling */
+body {
+  background-color: purple;
+  color: white;
+}
+
+.personal-info {
+    display: inline;
+    text-align: center;
+}
+.family-life {
+  display: flex;
+  justify-content: space-between;
+} 
+
+ .family {
+  display: flex;
+  flex-direction: column;
+}
+.wife {
+  display: flex;
+  flex-direction: column;
+}
+
+.children {
+  display: flex;
+  flex-direction: column;
+}
+
+.family-life img {
+    width: 250px;
+    height: 250px;
+}
+
+/* End Jeff's personal page styling */

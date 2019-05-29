@@ -140,8 +140,7 @@ body {
 
 /* End Jeff's personal page styling */
 
-footer {
-  position: fixed;
+
 .footer-container {
   position: relative;
   margin-top: 150px;
@@ -161,12 +160,10 @@ justify-content: center;
 }
 
 .footer-links li {
-  padding: 10px;
-  justify-content: center; 
+  padding: 10px; 
 }
 
 li img {
   width: 50px;
   height: 50px;
-  align-self: center;
 }

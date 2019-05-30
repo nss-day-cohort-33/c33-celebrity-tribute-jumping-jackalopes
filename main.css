@@ -3,8 +3,8 @@ body {
     color: white;
     font-family: 'Libre Baskerville', serif;
     margin: 20px;
-  
-  }
+}
+
 nav {
   display: flex;
   justify-content: flex-start;
@@ -32,13 +32,16 @@ nav a {
   text-decoration: none;
   font-size: 18px;
 }
+
 nav a:hover {
     text-decoration: underline;
     color: purple;
 }
+
 nav a:visited {
     color: blue;
 }
+
 /* End of Navbar CSS */
 
 /* Start of Amber's Career Page CSS */
@@ -54,6 +57,7 @@ nav a:visited {
     font-size: 15.8px;
     margin-bottom: 30px;
 }
+
 .awards-table th {
     border: 1px solid white;
     padding: 8px;
@@ -65,8 +69,8 @@ nav a:visited {
     border: 1px solid white;
     padding: 8px;
     text-align: left;
-
 }
+
 .sam-dog-pic {
     display: inline-block;
     float: right;
@@ -79,9 +83,11 @@ nav a:visited {
     display: flex;
     
 }
+
 .movie-poster img {
     width: 100%;
 }
+
 /* End of Amber's Career Page CSS */
 
 /* Krystal CSS start */

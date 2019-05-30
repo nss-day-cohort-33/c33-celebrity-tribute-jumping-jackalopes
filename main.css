@@ -3,8 +3,8 @@ body {
     color: white;
     font-family: 'Libre Baskerville', serif;
     margin: 20px;
-  
-  }
+}
+
 nav {
   display: flex;
   justify-content: flex-start;
@@ -12,8 +12,15 @@ nav {
   align-items: center;
   background-color: rgb(168, 129, 204);
   color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Libre Baskerville', serif;
   padding: 10px;
+  margin: -20px -20px 30px -20px;
+}
+
+nav img {
+    width: 10%;
+    margin-right: 10px;
+    margin-bottom: -10px;
 }
 
 nav a {
@@ -21,23 +28,67 @@ nav a {
   margin: 20px;
   align-self: center;
   padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
 
+nav a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+nav a:visited {
+    color: blue;
+}
+
+/* End of Navbar CSS */
+
+/* Start of Amber's Career Page CSS */
 .sam-bw-pic {
     display: inline-block;
     float: left;
     width: 20%;
     height: 20%;
-    margin-right: 20px;
+    margin: 20px;
+}
+
+.career p {
+    font-size: 15.8px;
+    margin-bottom: 30px;
+}
+
+.awards-table th {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+    background-color: black;
+}
+
+.awards-table td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+.sam-dog-pic {
+    display: inline-block;
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin: 20px;
 }
 
 .movie-cards {
     display: flex;
     
 }
+
 .movie-poster img {
     width: 100%;
 }
+
+/* End of Amber's Career Page CSS */
 
 /* Krystal CSS start */
 .exec_sum_intro img {
@@ -193,6 +244,7 @@ font-size: 50px;
 /* End Jeff's personal page styling */
 
 
+/* Start of Footer CSS */
 .footer-container {
   position: relative;
   margin-top: 150px;
@@ -201,7 +253,7 @@ font-size: 50px;
 footer {
   position: absolute;
   bottom: 0; 
-  margin-left: 500px; 
+  width: 100%; 
 }
 
 .footer-links {
@@ -209,6 +261,7 @@ display: flex;
 flex-direction: row;
 list-style: none;
 justify-content: center;
+padding: 0;
 }
 
 .footer-links li {

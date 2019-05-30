@@ -48,13 +48,13 @@ nav a:visited {
 .sam-bw-pic {
     display: inline-block;
     float: left;
-    width: 20%;
-    height: 20%;
-    margin: 20px;
+    width: 21%;
+    height: 21%;
+    margin: 5px 20px;
 }
 
 .career p {
-    font-size: 15.8px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
@@ -74,18 +74,27 @@ nav a:visited {
 .sam-dog-pic {
     display: inline-block;
     float: right;
-    width: 30%;
-    height: 30%;
+    width: 33%;
+    height: 33%;
     margin: 20px;
 }
 
 .movie-cards {
     display: flex;
-    
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
+.movie-poster {
+    display: table;
+}
+
+.movie-poster figcaption {
+    display: table-caption;
+    caption-side: bottom;
+}
 .movie-poster img {
-    width: 100%;
+    width: 240px;
 }
 
 /* End of Amber's Career Page CSS */

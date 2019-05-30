@@ -23,10 +23,32 @@ nav a {
     float: left;
     width: 20%;
     height: 20%;
-    margin-right: 20px;
+    margin: 20px;
 }
-.awards-table tr, td {
-    border: 1px solid black;
+
+.career p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.awards-table th {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+    background-color: black;
+}
+
+.awards-table td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+
+}
+.sam-dog-pic {
+    display: inline-block;
+    float: right;
+    width: 30%;
+    height: 30%;
+    margin: 20px;
 }
 
 .movie-cards {

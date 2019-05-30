@@ -175,21 +175,37 @@ margin-top: -20px;
 /* THOMAS 'NEWS' CSS */
 div.news {
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
     margin: .25em;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.2em;
+}
+div.news img {
+    width: 450px;
+    height: 450px;
 }
 .news > div {
     margin: 10px;
 }
 .news > div img {
-    margin-right: 10px;
+    margin-bottom: 10px;
+    border: solid black 5px;
 }
 .news > div a {
     padding-top: 10px;
+    color:
 }
 div.newsContent {
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+h1.news {
+    display: flex;
+    justify-content: center;
+}
+.newsContent a:visited {
+    color: red;
 }
 
 

@@ -95,23 +95,43 @@ nav a:visited {
     margin-bottom: 40px;
     margin-right: 12px;
     float: left;
+    border: 5px solid black;
 }
 
 .exec_sum_intro h1 {
     font-size: 50px;
     text-align: center;
 }
+.exec_sum_intro p {
+  font-size: 35px;
+  position: relative;
+  top: 520px;
+  right: 620px;
+}
+.quote_credit {
+  font-size: 15px;
+  text-indent: 180px;
+}
 
+.aliases h1 {
+    font-size: 35px;
+  position: relative;
+  bottom: 130px;
+}
 .list_aliases { 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: gray;
     border: 5px solid black;
     padding-bottom: 10px;
     padding-top:10px;
     margin-right: 8px;
+    position: relative;
+    bottom:130px;
+    font-size: 25px;
 }
 
 .list_aliases li {
@@ -121,12 +141,23 @@ nav a:visited {
 
 .list_aliases img {
     height: 140px;
-    width: 170px;
+    width: 200px;
+    border: 5px solid black;
 }
 
+.collaborators h1 {
+  font-size: 35px;
+text-align: center;
+margin-top: -20px;
+}
+
+.collaborators {
+  font-size: 20px;
+}
 .list_collaborators img {
     height: 140px;
-    width: 140px;
+    width: 195px;
+    border: 5px solid black;
 }
 
 .list_collaborators {

@@ -1,3 +1,10 @@
+body {
+    background-color: purple;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    margin: 20px;
+  
+  }
 nav {
   display: flex;
   justify-content: flex-start;
@@ -148,33 +155,58 @@ div.newsContent {
 }
 
 
-/* Begin Jeff's personal page sytling */
-body {
-  background-color: purple;
-  color: white;
-}
+/* Begin Jeff's personal page styling */
+
+
+
 
 .personal-info {
-    display: inline;
+    display: list-item;
     text-align: center;
+    list-style: none;
+
+    
 }
+
+.sam-jackson-photo {
+    display: inline-block;
+    float: left;
+}
+
+.personal-info h1 {
+font-size: 50px;
+}
+
+.personal-info h3 {
+    font-size: 25px;
+}
+
+.personal-info li {
+    font-size: 20px;
+}
+
+
 .family-life {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 } 
 
  .family {
   display: flex;
   flex-direction: column;
+  
 }
 .wife {
   display: flex;
   flex-direction: column;
+  
 }
 
 .children {
   display: flex;
   flex-direction: column;
+  
 }
 
 .family-life img {
@@ -182,6 +214,26 @@ body {
     height: 250px;
 }
 
+.family-header {
+    text-align: center;
+    font-size: 50px;
+    margin: 60px 0px 0px 0px;
+}
+
+.family-life ul {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.family-life h3 {
+    font-size: 30px;
+}
+
+/* .personal-nav a {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+} */
 /* End Jeff's personal page styling */
 
 
